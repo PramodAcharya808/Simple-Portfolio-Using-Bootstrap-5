@@ -81,7 +81,7 @@ section {
 
 .navbar-wrapper .navbar-brand img {
     height: auto;
-    max-width: 10rem;
+    max-width: 12rem;
 }
 
 .navbar-wrapper .navbar-toggler:focus {
@@ -98,4 +98,10 @@ section {
     font-weight: 500;
     text-transform: uppercase;
     color: var(--text-black);
+    display: inline-block;
+}
+
+.navbar-wrapper .nav-item .nav-link:active,
+.navbar-wrapper .nav-item .nav-link:hover{
+color: var(--primary-color);
 }
