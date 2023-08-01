@@ -81,7 +81,7 @@ section {
 
 .navbar-wrapper .navbar-brand img {
     height: auto;
-    max-width: 12rem;
+    max-width: 10rem;    
 }
 
 .navbar-wrapper .navbar-toggler:focus {
