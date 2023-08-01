@@ -50,9 +50,21 @@ body {
     background-image: url('img/body-bg.png.webp');
     background-repeat: no-repeat;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-/* ------------------END---------------------- */
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
 
+::-webkit-scrollbar-track {
+    background: var(--bg-grey);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+/* ------------------END---------------------- */
