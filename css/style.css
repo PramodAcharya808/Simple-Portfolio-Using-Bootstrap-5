@@ -80,11 +80,10 @@ section {
 /* 3. Navbar */
 .navbar-wrapper .navbar{
     background-color: #bababa;
-    height: 5rem;
 }
 .navbar-wrapper .navbar-brand img {
     height: auto;
-    max-width: 15rem;    
+    max-width: 10rem;    
 }
 
 .navbar-wrapper .navbar-toggler:focus {
