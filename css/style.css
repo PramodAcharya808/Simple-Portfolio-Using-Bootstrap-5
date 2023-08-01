@@ -47,7 +47,12 @@ TABLE OF CONTENT
 body {
     font-family: var(--secondary-font);
     width: 100%;
-    background-image: url("img/body-bg.png");
+    background-image: url('img/body-bg.png.webp');
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
 }
 
 /* ------------------END---------------------- */
+
