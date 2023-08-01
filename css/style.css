@@ -1,14 +1,14 @@
 /*
 TABLE OF CONTENT
 1. General
-2. NavBar 
+2. Custom Css
+3. NavBar 
 
 ----------------------------------------------------------------
  */
 
 
 /* 1. General */
-/* ------------------START---------------------- */
 /* Google font - Roboto Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -67,4 +67,23 @@ a {
     background: var(--primary-color);
 }
 
-/* ------------------END---------------------- */
+
+
+/* 2. Custom CSS */
+
+section {
+    /* Gives padding for top and bottom for all the sections used */
+    padding: 5rem 0;
+}
+
+
+/* 3. Navbar */
+
+.navbar-wrapper .navbar-brand img {
+    height: auto;
+    max-width: 10rem;
+}
+
+.navbar-wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
