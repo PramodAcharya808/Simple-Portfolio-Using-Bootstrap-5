@@ -78,9 +78,6 @@ section {
 
 
 /* 3. Navbar */
-.navbar-wrapper .navbar{
-    background-color: #bababa;
-}
 .navbar-wrapper .navbar-brand img {
     height: auto;
     max-width: 10rem;    
