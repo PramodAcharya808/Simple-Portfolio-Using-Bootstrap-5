@@ -76,8 +76,93 @@ section {
     padding: 5rem 0;
 }
 
+.main-btn {
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 /30%);
+    border: double 0.125rem transparent;
+    padding: 0 0.625rem;
+    transition: all .3s ease-in-out;
+}
+
+.primary-btn {
+    background-image: var(--gradient);
+    color: var(--text-white);
+}
+
+.primary-btn:hover {
+    border-color: var(--secondary-color);
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    box-shadow: none;
+}
+
+.secondary-btn {
+    background-image: var(--bg-white);
+    color: var(--secondary-text);
+    border-color: var(--secondary-color);
+}
+
+.secondary-btn:hover {
+    background: var(--gradient);
+    color: var(--text-white);
+    box-shadow: none;
+}
+
+
+h1 {
+    font-size: 4.375rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: 1.25rem;
+    font-family: var(--primary-font);
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+    font-weight: 500;
+    color: var(--text-black);
+    margin-bottom: 1.5625rem;
+    font-family: var(--primary-font);
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    color: var(--text-black);
+    margin-bottom: 0.9375rem;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-black);
+    margin-bottom: 2.1875rem;
+}
+
+p{
+    color: var(--text-grey);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
 
 /* 3. Navbar */
+.navbar-wrapper{
+    background-color: var(--bg-white);
+}
 .navbar-wrapper .navbar-brand img {
     height: auto;
     max-width: 10rem;
@@ -100,7 +185,7 @@ section {
     display: inline-block;
 }
 
-.navbar-wrapper .nav-item .nav-link:active,
+.navbar-wrapper .nav-item .nav-link.active,
 .navbar-wrapper .nav-item .nav-link:hover {
     color: var(--primary-color);
 }
